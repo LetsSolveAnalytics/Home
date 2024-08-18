@@ -631,6 +631,83 @@ strong {
   padding: 7.5px 15px;
 }
 
+/*---------------------------------------
+  TEAM INFO               
+-----------------------------------------*/
+
+.teams-thumb {
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.teams-thumb-large {
+  min-height: 356px;
+}
+
+.teams-thumb:hover {
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.teams-thumb:hover .teams-image {
+  transform: scale(1.2);
+}
+
+.teams-thumb:hover .teams-title-wrap {
+  padding-bottom: 30px;
+}
+
+.teams-thumb:hover .custom-btn,
+.teams-btn-wrap .custom-btn:hover {
+  background: var(--primary-color);
+}
+
+.teams-title-wrap {
+  background: linear-gradient(to top, var(--dark-color), transparent 90%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 25px 25px 10px 25px;
+  transition: all 0.2s;
+}
+
+.teams-small-title {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.teams-title {
+  color: var(--white-color);
+}
+
+.teams-image {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.teams-thumb-large .teams-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.teams-btn-wrap {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.teams-btn-wrap .custom-btn {
+  font-size: 30px;
+  padding: 7.5px 15px;
+}
 
 /*---------------------------------------
   CONTACT INFO               
