@@ -1,1 +1,1 @@
-https://fuzelahamedshaik.github.io/letssolve/
+https://letssolveanalytics.github.io/Home/
